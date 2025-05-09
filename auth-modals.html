@@ -1,0 +1,38 @@
+<!-- Login Modal -->
+<div id="login-modal" class="modal">
+    <div class="modal-content">
+        <button class="close-modal">&times;</button>
+        <h2>Iniciar sesión</h2>
+        <input type="email" id="login-email" placeholder="Correo electrónico">
+        <input type="password" id="login-password" placeholder="Contraseña">
+        <button id="login-submit">Iniciar sesión</button>
+        <button class="secondary" id="switch-to-register">No tengo cuenta</button>
+        <p id="login-error" class="error-message"></p>
+    </div>
+</div>
+
+<!-- Register Modal -->
+<div id="register-modal" class="modal">
+    <div class="modal-content">
+        <button class="close-modal">&times;</button>
+        <h2>Registrarse</h2>
+        <input type="text" id="register-name" placeholder="Nombre completo">
+        <input type="email" id="register-email" placeholder="Correo electrónico">
+        <input type="password" id="register-password" placeholder="Contraseña">
+        <input type="password" id="register-confirm" placeholder="Confirmar contraseña">
+        <button id="register-submit">Registrarse</button>
+        <button class="secondary" id="switch-to-login">Ya tengo cuenta</button>
+        <p id="register-error" class="error-message"></p>
+    </div>
+</div>
+
+<!-- Orders Modal -->
+<div id="orders-modal" class="modal">
+    <div class="modal-content">
+        <button class="close-modal">&times;</button>
+        <h2>Mis pedidos</h2>
+        <div class="orders-history" id="orders-list">
+            <!-- Orders will be loaded here -->
+        </div>
+    </div>
+</div>

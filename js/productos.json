@@ -1,0 +1,200 @@
+[
+    {
+        "id": "abrigo-01",
+        "titulo": "Abrigo Clásico",
+        "imagen": "./img/abrigos/01.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000,
+        "descripcion": "Abrigo de lana gruesa para invierno, disponible en varios colores. Forro interior de seda."
+    },
+    {
+        "id": "abrigo-02",
+        "titulo": "Abrigo 02",
+        "imagen": "./img/abrigos/02.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000,
+        "descripcion": "Chaqueta parka impermeable con capucha desmontable. Incluye forro térmico extraíble y múltiples bolsillos funcionales. Resistente al viento y agua."
+    },
+    {
+        "id": "abrigo-03",
+        "titulo": "Abrigo 03",
+        "imagen": "./img/abrigos/03.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000,
+        "descripcion": "Gabardina clásica en algodón orgánico con cinturón ajustable. Estilo atemporal perfecto para entornos urbanos. Disponible en colores neutros."
+    },
+    {
+        "id": "abrigo-04",
+        "titulo": "Abrigo 04",
+        "imagen": "./img/abrigos/04.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000,
+        "descripcion": "Abrigo largo de paño con solapas de terciopelo. Elegante diseño formal con corte recto y costuras reforzadas. 100% lana virgen."
+    },
+    {
+        "id": "abrigo-05",
+        "titulo": "Abrigo 05",
+        "imagen": "./img/abrigos/05.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000,
+        "descripcion": "Chaleco acolchado ultraligero con relleno de plumas sintéticas. Ideal para capas de invierno, con tecnología de aislamiento térmico Dry-Tech."
+    },
+    {
+        "id": "camiseta-01",
+        "titulo": "Camiseta 01",
+        "imagen": "./img/camisetas/01.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000,
+        "descripcion": "Camiseta básica de algodón peinado 200 hilos. Cuello redondo clásico con costuras reforzadas. Suave al tacto y resistente a lavados."
+    },
+    {
+        "id": "camiseta-02",
+        "titulo": "Camiseta 02",
+        "imagen": "./img/camisetas/02.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000,
+        "descripcion": "Modelo slim fit en mezcla de algodón orgánico y elastano. Tecnología antiarrugas y control de humedad. Ideal para uso diario."
+    },
+    {
+        "id": "camiseta-03",
+        "titulo": "Camiseta 03",
+        "imagen": "./img/camisetas/03.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000,
+        "descripcion": "Diseño gráfico con estampado serigráfico ecológico. Manga corta y corte regular. Tela preencogida para mayor durabilidad."
+    },
+    {
+        "id": "camiseta-04",
+        "titulo": "Camiseta 04",
+        "imagen": "./img/camisetas/04.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000,
+        "descripcion": "Camiseta técnica deportiva con tejido transpirable Dry-Fit. Reflejos reflectantes para seguridad nocturna. Costuras planas para evitar rozaduras."
+    },
+    {
+        "id": "camiseta-05",
+        "titulo": "Camiseta 05",
+        "imagen": "./img/camisetas/05.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000,
+        "descripcion": "Edición limitada con bordado artesanal. Algodón pima de fibra extra larga para mayor suavidad. Lavado a piedra para textura envejecida."
+    },
+    {
+        "id": "camiseta-06",
+        "titulo": "Camiseta 06",
+        "imagen": "./img/camisetas/06.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000,
+        "descripcion": "Modelo de manga raglán con contraste de colores. Cuello redondo reforzado y doble costura en bastillas. Paquete de 3 unidades."
+    },
+    {
+        "id": "camiseta-07",
+        "titulo": "Camiseta 07",
+        "imagen": "./img/camisetas/07.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000,
+        "descripcion": "Camiseta polo premium con botones de madreperla. Tejido piqué resistente a deformaciones. Diseño semi-formal para ocasiones casuales."
+    },
+    {
+        "id": "camiseta-08",
+        "titulo": "Camiseta 08",
+        "imagen": "./img/camisetas/08.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 1000,
+        "descripcion": "Corte oversized con estampado digital HD. Mangas tipo dolman y largo extendido. Tela de algodón reciclado eco-friendly."
+    },
+    {
+        "id": "pantalon-01",
+        "titulo": "Pantalón 01",
+        "imagen": "./img/pantalones/01.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000,
+        "descripcion": "Chino clásico en twill de algodón elástico. Corte straight fit con pasadores ajustables y bolsillos delanteros y traseros funcionales."
+    },
+    {
+        "id": "pantalon-02",
+        "titulo": "Pantalón 02",
+        "imagen": "./img/pantalones/02.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000,
+        "descripcion": "Jeans slim fit con tecnología stretch. Lavado oscuro sin roturas, costuras reforzadas en áreas de tensión. Cintura media."
+    },
+    {
+        "id": "pantalon-03",
+        "titulo": "Pantalón 03",
+        "imagen": "./img/pantalones/03.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000,
+        "descripcion": "Pantalón de vestir en tejido wrinkle-free. Pliegues marcados y bastillas precisas. Incluye ajuste de cintura oculto."
+    },
+    {
+        "id": "pantalon-04",
+        "titulo": "Pantalón 04",
+        "imagen": "./img/pantalones/04.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000,
+        "descripcion": "Cargo pants técnicos con múltiples bolsillos con cierre. Tela ripstop resistente a rasgaduras. Ideal para actividades outdoor."
+    },
+    {
+        "id": "pantalon-05",
+        "titulo": "Pantalón 05",
+        "imagen": "./img/pantalones/05.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 1000,
+        "descripcion": "Jogger premium con cintura elástica y cordón ajustable. Tejido french terry suave con dobles costuras en puntos críticos."
+    }
+]

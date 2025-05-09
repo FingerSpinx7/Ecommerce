@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClotheShop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo">ClotheShop</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <h1 class="logo">ClotheShop</h1>
+                <div class="user-actions">
+                    <button id="login-btn">Iniciar sesión</button>
+                    <button id="register-btn">Registrarse</button>
+                    <span id="user-greeting" class="hidden"></span>
+                    <button id="logout-btn" class="hidden">Cerrar sesión</button>
+                </div>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
+                    </li>
+                    <li>
+                        <button id="abrigos" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Abrigos</button>
+                    </li>
+                    <li>
+                        <button id="camisetas" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Camisetas</button>
+                    </li>
+                    <li>
+                        <button id="pantalones" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Pantalones</button>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span>
+                        </a>
+                    </li>
+                    <li>
+                        <button id="view-orders" class="boton-menu">
+                            <i class="bi bi-clock-history"></i> Mis pedidos
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer"></p>
+            </footer>
+        </aside>
+        <main>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Buscar productos...">
+                <button id="search-btn"><i class="bi bi-search"></i></button>
+            </div>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <!-- Esto se va a rellenar con JS -->
+            </div>
+        </main>
+    </div>
+    
+    <!-- Login Modal -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <h2>Iniciar sesión</h2>
+            <input type="email" id="login-email" placeholder="Correo electrónico">
+            <input type="password" id="login-password" placeholder="Contraseña">
+            <button id="login-submit">Iniciar sesión</button>
+            <button class="secondary" id="switch-to-register">No tengo cuenta</button>
+            <p id="login-error" class="error-message"></p>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div id="register-modal" class="modal">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <h2>Registrarse</h2>
+            <input type="text" id="register-name" placeholder="Nombre completo">
+            <input type="email" id="register-email" placeholder="Correo electrónico">
+            <input type="password" id="register-password" placeholder="Contraseña">
+            <input type="password" id="register-confirm" placeholder="Confirmar contraseña">
+            <button id="register-submit">Registrarse</button>
+            <button class="secondary" id="switch-to-login">Ya tengo cuenta</button>
+            <p id="register-error" class="error-message"></p>
+        </div>
+    </div>
+
+    <!-- Orders Modal -->
+    <div id="orders-modal" class="modal">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <h2>Mis pedidos</h2>
+            <div class="orders-history" id="orders-list">
+                <!-- Orders will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Detalles de Producto -->
+    <div id="product-detail-modal" class="modal">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <div class="product-detail-content">
+                <img id="detail-product-image" src="" alt="" class="product-detail-image">
+                <div class="product-detail-text">
+                    <h2 id="detail-product-title"></h2>
+                    <p class="product-detail-price" id="detail-product-price"></p>
+                    <p class="product-detail-category" id="detail-product-category"></p>
+                    <p class="product-detail-description" id="detail-product-description"></p>
+                    <button class="product-detail-add" id="detail-product-add">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/menu.js"></script>
+</body>
+</html>
